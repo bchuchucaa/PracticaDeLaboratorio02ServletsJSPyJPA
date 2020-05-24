@@ -10,5 +10,6 @@ public interface TelefonoDAO extends GenericDAO<Telefono, Integer>  {
 	public List<Telefono> recuperarTelefonos(Telefono entity);
 	public void eliminarTelefono(Telefono entity);
 	public void actualizarTelefono(Telefono entity);
+	public List<Telefono> buscarPorCedula(Telefono entity);
 
 }

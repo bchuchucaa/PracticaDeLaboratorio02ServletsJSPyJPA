@@ -6,6 +6,7 @@ import javax.persistence.*;
 //@NamedQuery(name = "getByLevel", query = "SELECT u FROM User u WHERE u.level >= :level")
 @NamedQuery(name = "recuperarTelefonos", query = "SELECT t FROM Telefono t WHERE t.usuario = :cedula")
 @NamedQuery(name = "eliminarTelefono", query = "DELETE FROM Telefono t WHERE t.codigo = :codigo")
+@NamedQuery(name = "buscarPorCedula", query = "SELECT t FROM Telefono t WHERE t.usuario = :cedula")
 /**
  * Entity implementation class for Entity: Telefono
  *

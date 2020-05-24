@@ -24,5 +24,15 @@ public class JPAUsuarioDAO extends JPAGenericDAO<Usuario, String> implements Usu
 		return res;
 	}
 
+	@Override
+	public Usuario buscarPorCorreo(Usuario entity) {
+		String correo= entity.getCorreo();
+		Query query = em.createNamedQuery("buscarPorCorreo");
+		query.setParameter("correo",correo);
+		@SuppressWarnings("unchecked")
+		Usuario res= (Usuario) query.getSingleResult();
+		return res;
+	}
+
 
 }

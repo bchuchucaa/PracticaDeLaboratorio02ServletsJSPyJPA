@@ -10,6 +10,7 @@ import javax.persistence.*;
 
 //@NamedQuery(name = "getByLevel", query = "SELECT u FROM User u WHERE u.level >= :level")
 @NamedQuery(name = "logIn", query = "SELECT u FROM Usuario u WHERE u.correo = :correo")
+@NamedQuery(name = "buscarPorCorreo", query = "SELECT u FROM Usuario u WHERE u.correo = :correo")
 /**
  * Entity implementation class for Entity: Usuario
  *

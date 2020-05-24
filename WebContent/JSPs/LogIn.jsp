@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="/Proyectov6/img/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="/JPADAOProyecto1/img/icons/favicon.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -26,8 +26,8 @@
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="/Proyectov6/css/util.css">
-	<link rel="stylesheet" type="text/css" href="/Proyectov6/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/JPADAOProyecto1/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/JPADAOProyecto1/css/main.css">
 	
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,7 +46,7 @@
 
 <form action="/JPADAOProyecto1/SesionController" method="get" id="registro">
 <div class="limiter">
-		<div class="container-login100" style="background-image: url('/Proyectov6/img/bg-01.jpg');">
+		<div class="container-login100" style="background-image: url('/JPADAOProyecto1/img/bg-01.jpg');">
 			<div class="wrap-login100 p-t-30 p-b-50">
 				<span class="login100-form-title p-b-41">
 					Inicio de sesion

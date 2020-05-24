@@ -61,4 +61,16 @@ public class JPATelefonoDAO extends JPAGenericDAO<Telefono, Integer> implements 
 		}
 		
 	}
+
+	@Override
+	public List<Telefono> buscarPorCedula(Telefono entity) {
+		Usuario usuario=entity.getUsuario();
+		System.out.println("este es el usario a buscar "+usuario.toString());
+		Query query = em.createNamedQuery("buscarPorCedula");
+		query.setParameter("cedula",usuario);
+		@SuppressWarnings("unchecked")
+		List<Telefono> telefonos = new ArrayList<Telefono>();
+		telefonos=query.getResultList();
+		return telefonos;
+	}
 }
