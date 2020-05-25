@@ -27,8 +27,8 @@ public class Usuario implements Serializable {
 	private String cedula;
 	private String nombre;
 	private String apellido;
-	private String correo;
 	@Column(unique= true, nullable=false)
+	private String correo;
 	private String contrasena;
 	@OneToMany(cascade= CascadeType.ALL,mappedBy = "usuario",orphanRemoval=true)
 	private List<Telefono> telefonos;

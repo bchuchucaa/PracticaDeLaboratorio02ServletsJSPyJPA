@@ -45,8 +45,6 @@ public class BuscarUsuario extends HttpServlet {
 		TelefonoDAO telefonoDAO=DAOFactory.getFactory().getTelefonoDAO();
 		List<Telefono> telefonos= new ArrayList<Telefono>();
 		userexistente=usuarioDAO.read(request.getParameter("usuario"));
-		System.out.println(userexistente.toString());
-		
 		if(userexistente!= null) {
 			Telefono telefono = new Telefono();
 			telefono.setUsuario(userexistente);

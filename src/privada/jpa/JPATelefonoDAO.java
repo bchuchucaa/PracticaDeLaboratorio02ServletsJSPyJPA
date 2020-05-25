@@ -19,7 +19,6 @@ public class JPATelefonoDAO extends JPAGenericDAO<Telefono, Integer> implements 
 	@Override
 	public List<Telefono> recuperarTelefonos(Telefono telefono) {
 		Usuario usuario=telefono.getUsuario();
-		System.out.println("este es el usario a buscar "+usuario.toString());
 		Query query = em.createNamedQuery("recuperarTelefonos");
 		query.setParameter("cedula",usuario);
 		@SuppressWarnings("unchecked")
@@ -31,7 +30,6 @@ public class JPATelefonoDAO extends JPAGenericDAO<Telefono, Integer> implements 
 	@Override
 	public void eliminarTelefono(Telefono entity) {
 		int codigo= entity.getCodigo();
-		System.out.println("codigo telefono a eliminar "+ codigo);
 		em.getTransaction().begin();
 		Query query= em.createNamedQuery("eliminarTelefono");
 		query.setParameter("codigo", codigo).executeUpdate();
@@ -65,7 +63,6 @@ public class JPATelefonoDAO extends JPAGenericDAO<Telefono, Integer> implements 
 	@Override
 	public List<Telefono> buscarPorCedula(Telefono entity) {
 		Usuario usuario=entity.getUsuario();
-		System.out.println("este es el usario a buscar "+usuario.toString());
 		Query query = em.createNamedQuery("buscarPorCedula");
 		query.setParameter("cedula",usuario);
 		@SuppressWarnings("unchecked")

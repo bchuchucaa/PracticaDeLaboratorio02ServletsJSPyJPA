@@ -13,7 +13,7 @@
 					href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 					<link rel="stylesheet"
 						href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-						<link rel="stylesheet" href="/Proyectov6/css/agenda.css">
+						<link rel="stylesheet" href="/JPADAOProyecto1/css/agenda.css">
 							<!--===============================================================================================-->
 							<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
 							<!--===============================================================================================-->
@@ -42,13 +42,13 @@
 															href="vendor/daterangepicker/daterangepicker.css">
 															<!--===============================================================================================-->
 															<link rel="stylesheet" type="text/css"
-																href="/Proyectov6/css/usuario/util.css">
+																href="/JPADAOProyecto1/css/usuario/util.css">
 																<link rel="stylesheet" type="text/css"
-																	href="/Proyectov6/css/usuario/main.css">
+																	href="/JPADAOProyecto1/css/usuario/main.css">
 
 																	<link rel="stylesheet" type="text/css"
-																		href="/Proyectov6/css/usuario/tabla.css">
-																		<link rel="stylesheet" type="text/css" href="/Proyectov6/css/usuario/menu.css">
+																		href="/JPADAOProyecto1/css/usuario/tabla.css">
+																		<link rel="stylesheet" type="text/css" href="/JPADAOProyecto1/css/usuario/menu.css">
 																		<script>
 																				function numeros() {
 																					var z = document.getElementById("cedula").value;
@@ -63,14 +63,14 @@
 <body>
 	<header id="header">
 	<nav class="links" style="--items: 5;">
-		<a href="/Proyectov6/index.html">Inicio</a>
+		<a href="/JPADAOProyecto1/index.html">Inicio</a>
 
 		<span class="line"></span>
 	</nav>
 </header>
 <br><br>
  
-<form action="/Proyectov6/BuscarPorCorreo" autocomplete="off">
+<form action="/JPADAOProyecto1/BuscarPorCorreo" autocomplete="off">
     <fieldset class="url">
       <input id="url" type="email" name="usuario" required>
       <label for="url"><i class="fa fa-search" aria-hidden="true"></i> Ingrese el correo</label>

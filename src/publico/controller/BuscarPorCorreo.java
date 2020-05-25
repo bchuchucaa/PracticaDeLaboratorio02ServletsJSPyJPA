@@ -63,7 +63,7 @@ public class BuscarPorCorreo extends HttpServlet {
 	
 			getServletContext().getRequestDispatcher(url).forward(request, response);
 		}else {
-			response.sendRedirect("/Proyectov6/JSPs/errorcorreo.jsp");
+			response.sendRedirect("/JPADAOProyecto1/JSPs/errorcorreo.jsp");
 			
 		}
 	}

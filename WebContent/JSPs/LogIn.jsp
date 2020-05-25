@@ -38,7 +38,7 @@
 <body>
 <header id="header">
 	<nav class="links" style="--items: 5;">
-		<a href="/Proyectov6/index.html"><li class="w3-xlarge"><i class="fa fa-home"></i> Home</li></a>
+		<a href="/JPADAOProyecto1/index.html"><li class="w3-xlarge"><i class="fa fa-home"></i> Home</li></a>
 		
 		<span class="line"></span>
 	</nav>

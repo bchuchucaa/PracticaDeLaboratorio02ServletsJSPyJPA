@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="/JPADAOProyecto/img/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="/JPADAOProyecto1/img/icons/favicon.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -27,9 +27,9 @@
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="/JPADAOProyecto/css/util.css">
-	<link rel="stylesheet" type="text/css" href="/JPADAOProyecto/css/main.css">
-																			<link rel="stylesheet" type="text/css" href="/JPADAOProyecto/css/usuario/menu.css">
+	<link rel="stylesheet" type="text/css" href="/JPADAOProyecto1/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/JPADAOProyecto1/css/main.css">
+<link rel="stylesheet" type="text/css" href="/JPADAOProyecto1/css/usuario/menu.css">
 	
 	<script>
 	function numeros(){
@@ -71,7 +71,7 @@ function soloLetras(e) {
 <br><br>
 <form action="/JPADAOProyecto1/RegistroController" method="get" id="registro">
 <div class="limiter">
-		<div class="container-login100" style="background-image: url('/JPADAOProyecto/img/bg-01.jpg');">
+		<div class="container-login100" style="background-image: url('/JPADAOProyecto1/img/bg-01.jpg');">
 			<div class="wrap-login100 p-t-30 p-b-50">
 				<span class="login100-form-title p-b-41">
 					Registro de usuarios
